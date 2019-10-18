@@ -1,0 +1,149 @@
+{"items":
+	[
+		{
+		"name": "Healing Potion",
+		"id": "healing_potion",
+		"glyph": "!",
+		"color": [127, 0, 255],
+		"chance": [35, 1],
+		"use_function": "heal",
+		"targeting": false,
+		"targeting_message": null,
+		"function_kwargs": {
+							"amount": 40
+							},
+		"equippable": null
+		},
+		{
+		"name": "Fireball Scroll",
+		"id": "fireball_scroll",
+		"glyph": "#",
+		"color": [255, 127, 0],
+		"chance": [25, 6],
+		"use_function": "cast_fireball",
+		"targeting": true,
+		"targeting_message": {
+							 "text": "Left-click a target tile for the fireball, or right-click to cancel.",
+							 "color": [115, 255, 255]
+							 },
+		"function_kwargs": {
+							"damage": 25,
+							"radius": 3
+							},
+		"equippable" : null
+		},
+		{
+		"name": "Sword",
+		"id": "sword",
+		"glyph": "/",
+		"color": [0, 191, 255],
+		"chance": [5, 4],
+		"use_function": null,
+		"targeting": false,
+		"targeting_message": null,
+		"function_kwargs": null,
+		"equippable": {
+					   "slot": 1,
+					   "power_bonus": 3,
+					   "defense_bonus": 0,
+					   "max_hp_bonus": 0
+					  }
+		},
+		{
+		"name": "Shield",
+		"id": "shield",
+		"glyph": "[",
+		"color": [128, 64, 0],
+		"chance": [15, 8],
+		"use_function": null,
+		"targeting": false,
+		"targeting_message": null,
+		"function_kwargs": null,
+		"equippable": {
+					   "slot": 2,
+					   "power_bonus": 0,
+					   "defense_bonus": 1,
+					   "max_hp_bonus": 0
+					  }
+		},
+		{
+		"name": "Confusion Scroll",
+		"id": "confusion_scroll",
+		"glyph": "#",
+		"color": [255, 115, 185],
+		"chance": [10, 2],
+		"use_function": "cast_confuse",
+		"targeting": true,
+		"targeting_message": {
+							 "text": "Left-click an enemy to confuse it, or right-click to cancel.",
+							 "color": [115, 255, 255]
+							 },
+		"function_kwargs": null,
+		"equippable": null
+		},
+		{
+		"name": "Lightning Scroll",
+		"id": "lightning_scroll",
+		"glyph": "#",
+		"color": [255, 255, 0],
+		"chance": [25, 4],
+		"use_function": "cast_lightning",
+		"targeting": false,
+		"targeting_message": null,
+		"function_kwargs": {
+						   "damage": 40,
+						   "maximum_range": 5
+						   },
+		"equippable": null
+		},
+		{
+		"name": "Strength Potion",
+		"id": "strength_potion",
+		"glyph": "!",
+		"color": [255, 0, 0],
+		"chance": [50, 1],
+		"use_function": "buff",
+		"targeting": false,
+		"targeting_message": null,
+		"function_kwargs": {
+						   "bonus": 3,
+						   "num_turns": 6,
+						   "buff_type": 1
+						   },
+		"equippable": null
+		},
+		{
+		"name": "Defense Potion",
+		"id": "defense_potion",
+		"glyph": "!",
+		"color": [0, 0, 255],
+		"chance": [50, 1],
+		"use_function": "buff",
+		"targeting": false,
+		"targeting_message": null,
+		"function_kwargs": {
+						   "bonus": 3,
+						   "num_turns": 6,
+						   "buff_type": 2
+						   },
+		"equippable": null
+		},
+		{
+		"name": "Health Potion",
+		"id": "health_potion",
+		"glyph": "!",
+		"color": [0, 255, 0],
+		"chance": [150, 1],
+		"use_function": "buff",
+		"targeting": false,
+		"targeting_message": null,
+		"function_kwargs": {
+						   "bonus": 50,
+						   "num_turns": 6,
+						   "buff_type": 3
+						   },
+		"equippable": null
+		}
+		
+	]
+}
