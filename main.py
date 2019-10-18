@@ -12,6 +12,8 @@ from loader_functions.data_loaders import load_game
 
 import settings as const
 
+# TODO: Add README to github, sort out licenses.
+
 
 def main() -> None:
 
